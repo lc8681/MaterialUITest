@@ -25,11 +25,20 @@ public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
 
-    private Fruit[] fruits = {new Fruit("苹果", R.drawable.apple), new Fruit("香蕉", R.drawable.banana),
-            new Fruit("橘子", R.drawable.orange), new Fruit("西瓜", R.drawable.watermelon),
-            new Fruit("梨", R.drawable.pear), new Fruit("葡萄", R.drawable.grape),
-            new Fruit("菠萝", R.drawable.pineapple), new Fruit("草莓", R.drawable.strawberry),
-            new Fruit("樱桃", R.drawable.cherry), new Fruit("芒果", R.drawable.mango)};
+    private Fruit[] fruits = {
+            new Fruit("阿尔法·罗密欧", R.drawable.alfa_romeo), new Fruit("阿斯顿·马丁", R.drawable.aston_martin),
+            new Fruit("奥迪", R.drawable.audi), new Fruit("宝马", R.drawable.bwm),
+            new Fruit("宾利", R.drawable.bentley), new Fruit("布加迪", R.drawable.bugatti),
+            new Fruit("别克", R.drawable.buick), new Fruit("凯迪拉克", R.drawable.cadillac),
+            new Fruit("雪佛兰", R.drawable.chevrolet), new Fruit("法拉利", R.drawable.ferrari),
+            new Fruit("福特", R.drawable.ford), new Fruit("本田", R.drawable.honda),
+            new Fruit("英菲尼迪", R.drawable.infiniti), new Fruit("兰博基尼", R.drawable.lamborghini),
+            new Fruit("雷克萨斯", R.drawable.lexus), new Fruit("玛莎拉蒂", R.drawable.maserati),
+            new Fruit("马自达", R.drawable.mazda), new Fruit("梅赛德斯·奔驰", R.drawable.mercedes_benz),
+            new Fruit("三菱", R.drawable.mitsubishi), new Fruit("日产", R.drawable.nissan),
+            new Fruit("保时捷", R.drawable.porsche), new Fruit("萨博", R.drawable.saba),
+            new Fruit("斯巴鲁", R.drawable.subaru), new Fruit("丰田", R.drawable.toyota),
+            new Fruit("沃尔沃", R.drawable.volvo),};
 
     private List<Fruit> fruitList = new ArrayList<>();
 
